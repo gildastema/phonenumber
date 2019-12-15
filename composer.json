@@ -1,0 +1,43 @@
+{
+    "name": "tematech/phonenumber",
+    "description": "Get Operator from phonenumber in cameroon",
+    "keywords": [
+        "tematech",
+        "phonenumber"
+    ],
+    "homepage": "https://github.com/tematech/phonenumber",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Gildas Tema",
+            "email": "gildastema3@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tematech\\Phonenumber\\": "src"
+        },
+        "files": ["src/helper.php"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tematech\\Phonenumber\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
