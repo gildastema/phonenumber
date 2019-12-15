@@ -46,7 +46,7 @@ class Phonenumber
      * @param string $phone
      * @return string
      */
-    private static function getPhoneWithoutPrefix(string $phone): string
+    public static function getPhoneWithoutPrefix(string $phone): string
     {
         if (strlen($phone) == 12) {
             return str_replace('237', '', $phone);

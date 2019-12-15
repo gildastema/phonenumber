@@ -34,4 +34,14 @@ class PhonenumberTest extends TestCase
         $this->assertEquals(Phonenumber::getOperator('23778986466'), Phonenumber::MTN);
         $this->assertEquals(Phonenumber::getOperator('237678986466'), Phonenumber::MTN);
     }
+    /**
+     * Undocumented function
+     * @test
+     * @return void
+     */
+    public function phone_without_prefix()
+    {
+        $this->assertEquals(Phonenumber::getPhoneWithoutPrefix('237691131446'), '691131446');
+        $this->assertEquals(Phonenumber::getPhoneWithoutPrefix('23791131446'), '691131446');
+    }
 }
