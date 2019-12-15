@@ -1,4 +1,4 @@
-# Very short description of the package
+# Description
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/tematech/phonenumber.svg?style=flat-square)](https://packagist.org/packages/tematech/phonenumber)
 [![Build Status](https://img.shields.io/travis/tematech/phonenumber/master.svg?style=flat-square)](https://travis-ci.org/tematech/phonenumber)
