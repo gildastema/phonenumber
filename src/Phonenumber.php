@@ -18,6 +18,7 @@ class Phonenumber
     public static function getOperator(string $phone): int
     {
         $phone = self::getPhoneWithoutPrefix(trim($phone));
+        
         if(strlen($phone) !== 9) return self::UNKOWN;
         if (startsWith($phone, '69')) {
             return self::ORANGE;
@@ -50,7 +51,7 @@ class Phonenumber
     public static function getPhoneWithoutPrefix(string $phone): string
     {
         if (strlen($phone) == 12) {
-            return str_replace('237', '', $phone);
+            return substr($phone, 3,9);
         }
         if (strlen($phone) == 11) {
             return '6' . str_replace('237', '', $phone);

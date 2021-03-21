@@ -28,7 +28,7 @@ class PhonenumberTest extends TestCase
      */
     public function is_mtn_phone()
     {
-        $this->assertEquals(Phonenumber::getOperator('6789864666'), Phonenumber::MTN);
+        $this->assertEquals(Phonenumber::getOperator('678986466'), Phonenumber::MTN);
         $this->assertEquals(Phonenumber::getOperator('651203598'), Phonenumber::MTN);
         $this->assertEquals(Phonenumber::getOperator('78986466'), Phonenumber::MTN);
         $this->assertEquals(Phonenumber::getOperator('23778986466'), Phonenumber::MTN);
