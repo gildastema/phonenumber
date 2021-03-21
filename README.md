@@ -1,8 +1,8 @@
 # Description
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/tematech/phonenumber.svg?style=flat-square)](https://packagist.org/packages/tematech/phonenumber)
-[![Build Status](https://img.shields.io/travis/tematech/phonenumber/master.svg?style=flat-square)](https://travis-ci.org/tematech/phonenumber)
-[![Quality Score](https://img.shields.io/scrutinizer/g/tematech/phonenumber.svg?style=flat-square)](https://scrutinizer-ci.com/g/tematech/phonenumber)
+[![Build Status](https://travis-ci.org/gildastema/phonenumber.svg?branch=master)](https://travis-ci.org/gildastema/phonenumber.svg?branch=master)
+[![Quality Score](https://img.shields.io/scrutinizer/g/gildastema/phonenumber.svg?style=flat-square)](https://scrutinizer-ci.com/g/gildastema/phonenumber)
 [![Total Downloads](https://img.shields.io/packagist/dt/tematech/phonenumber.svg?style=flat-square)](https://packagist.org/packages/tematech/phonenumber)
 
 This package help you to get operator from phonenumber in cameroon
